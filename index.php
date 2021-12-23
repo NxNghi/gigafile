@@ -15,18 +15,20 @@ template_part('header',[
                 <h3 class="logo__h3">G<span class="logo__h3--sty">OLF-</span>EASY</h3>
                 <h4 class="desct__logo">本格派シミュレーションゴルフ施設</h4>
             </div>
-            <div class="head__desct head__desct--dis">
-                <h3 class="desct__h3">完全会員制</h3>
-                <h4 class="desct__text">コースボールの利用など、</h4>
-                <h4 class="desct__text">会員規則がございます。</h4>
-            </div>
-            <div class="head__desct head__desct--per">
-                <div class="head__triangle">
-                    
+            <div class="head__globar">
+                <div class="head__desct--dis">
+                    <h3 class="desct__h3">完全会員制</h3>
+                    <h4 class="desct__text">コースボールの利用など、</h4>
+                    <h4 class="desct__text">会員規則がございます。</h4>
                 </div>
-                <h3 class="desct__h3"><span>120</span>名</h3>
-                <h3 class="desct__h3">限定</h3>
-            </div>   
+                <div class="head__desct--per">
+                    <div class="head__triangle">
+                        
+                    </div>
+                    <h3 class="desct__h3"><span>120</span>名</h3>
+                    <h3 class="desct__h3">限定</h3>
+                </div> 
+            </div>  
         </div>
         <div class="toggle">
             <div class="toggle__bar">
