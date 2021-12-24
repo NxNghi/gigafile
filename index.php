@@ -9,50 +9,47 @@ template_part('header',[
 ?>
 <!-- The start NAV part -->
 <nav>
-    <div class="container">
-        <div class="logo">
-            <div class="head__desct head__desct--logo">
-                <h3 class="logo__h3">G<span class="logo__h3--sty">OLF-</span>EASY</h3>
-                <h4 class="desct__logo">本格派シミュレーションゴルフ施設</h4>
-            </div>
-            <div class="head__globar">
-                <div class="head__desct--dis">
-                    <h3 class="desct__h3">完全会員制</h3>
-                    <h4 class="desct__text">コースボールの利用など、</h4>
-                    <h4 class="desct__text">会員規則がございます。</h4>
-                </div>
-                <div class="head__desct--per">
-                    <div class="head__triangle">
-                        
-                    </div>
-                    <h3 class="desct__h3"><span>120</span>名</h3>
-                    <h3 class="desct__h3">限定</h3>
-                </div> 
-            </div>  
+    <div class="logo">
+        <div class="head__desct head__desct--logo">
+            <h3 class="logo__h3">G<span class="logo__h3--sty">OLF-</span>EASY</h3>
+            <h4 class="desct__logo">本格派シミュレーションゴルフ施設</h4>
         </div>
-        <div class="toggle">
-            <div class="toggle__bar">
-                <input type="checkbox" name="checkbox" class="bar__check">
-                <div class="bar__line"></div>
-                <div class="bar__line"></div>
-                <div class="bar__line"></div>
+        <div class="head__globar">
+            <div class="head__desct--dis">
+                <h5 class="desct__h3">完全会員制</h5>
+                <h6 class="desct__text">コースボールの利用など、</h6>
+                <h6 class="desct__text">会員規則がございます。</h6>
             </div>
-            <div class="toggle__links">
-                <div class="links__center">
-                    <ul class="center__list center__list--block">
-                        <li><a href="#">TOP</a></li>
-                        <li><a href="#">無料体験会</a></li>
-                        <li><a href="#">施設紹介</a></li>
-                        <li><a href="#">時間・料金</a></li>
-                        <li><a href="#">WEB予約・お問合わせ</a></li>
-                    </ul>
-                    <ul class="center__list center__list--img">
-                        <li><a href="#"><img src="<?php assets('images/tg-line.png')?>" alt="img-line"></a></li>
-                        <li><a href="#"><img src="<?php assets('images/tg-twiter.png')?>" alt="img-twiter"></a></li>
-                        <li><a href="#"><img src="<?php assets('images/tg-intagram.png')?>" alt="img-intagram"></a></li>
-                        <li><a href="#"><img src="<?php assets('images/tg-face.png')?>" alt="img-facebook"></a></li>
-                    </ul>
+            <div class="head__desct--per">
+                <div class="head__triangle">
                 </div>
+                <h5 class="desct__h3"><span>120</span>名</h5>
+                <h5>限定</h5>
+            </div> 
+        </div>  
+    </div>
+    <div class="toggle">
+        <div class="toggle__bar">
+            <input type="checkbox" name="checkbox" class="bar__check">
+            <div class="bar__line"></div>
+            <div class="bar__line"></div>
+            <div class="bar__line"></div>
+        </div>
+        <div class="toggle__links">
+            <div class="links__center">
+                <ul class="center__list center__list--block">
+                    <li><a href="#">TOP</a></li>
+                    <li><a href="#">無料体験会</a></li>
+                    <li><a href="#">施設紹介</a></li>
+                    <li><a href="#">時間・料金</a></li>
+                    <li><a href="#">WEB予約・お問合わせ</a></li>
+                </ul>
+                <ul class="center__list center__list--img">
+                    <li><a href="#"><img src="<?php assets('images/tg-line.png')?>" alt="img-line"></a></li>
+                    <li><a href="#"><img src="<?php assets('images/tg-twiter.png')?>" alt="img-twiter"></a></li>
+                    <li><a href="#"><img src="<?php assets('images/tg-intagram.png')?>" alt="img-intagram"></a></li>
+                    <li><a href="#"><img src="<?php assets('images/tg-face.png')?>" alt="img-facebook"></a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -63,8 +60,8 @@ template_part('header',[
 
 <!-- Section slider end! -->
 <!-- the section first -->
-
-<section class="content content--first">
+<div id="fullpage">
+<section class="section content--first">
     <div class="content__container">  
         <div class="first__style">
             <h4 class="first__style--h2"><span>本格スタイル。</span></h4>
@@ -80,7 +77,7 @@ template_part('header',[
 </section>
     <!-- The end section first -->
     <!-- The start section second -->
-<section class="content content--second">
+<section class="section content--second">
     <div class="content__container">
         <div class="second__sty">
             <div class="second__left">
@@ -115,7 +112,7 @@ template_part('header',[
 </section>
 <!-- The end section second -->
 <!-- The start section third -->
-<section class="content content--third">
+<section class="section content--third">
     <div class="content__container">
         <div class="third__sty">
             <!--  the code content -->
@@ -166,7 +163,7 @@ template_part('header',[
 </section>
 <!-- The end section third -->
 <!-- The start section four -->
-<section class="content content--four">
+<section class="section content--four">
     <div class="content__container">
         <div class="four__sty">
             <div class="four__title">
@@ -238,7 +235,7 @@ template_part('header',[
 <!-- The end section four -->
 <!-- The start section five -->
 
-<section class="content content--five">
+<section class="section content--five">
     <div class="content__container">
         <div class="five__sty">
             <div class="five__head">
@@ -294,7 +291,7 @@ template_part('header',[
 </section>
 <!-- The end section five -->
 <!-- The start section six -->
-<section class="content content--six">
+<section class="section content--six">
     <div class="content__container">
         <div class="six__sty">
             <!--  the code content -->
@@ -325,7 +322,7 @@ template_part('header',[
     </div>
 </section>
 <!-- The end section six -->
-
+</div>
 <?php
 template_part('footer');
 ?>
