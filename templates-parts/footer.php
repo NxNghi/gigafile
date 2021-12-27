@@ -7,9 +7,10 @@
 <script>
 	new fullpage('#fullpage', {
 		autoScrolling:true,
-		scrollHorizontally: true,
+		// scrollHorizontally: true,
+		responsiveWidth: 800
 	})
-	fullpage_api.setAllowScrolling(false);
+	// fullpage_api.setAllowScrolling(false);
 </script>
 </body>
 </html>

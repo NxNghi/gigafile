@@ -64,13 +64,15 @@ template_part('header',[
 <section class="section content--first">
     <div class="content__container">  
         <div class="first__style">
-            <h4 class="first__style--h2"><span>本格スタイル。</span></h4>
-            <h4 class="first__style--h2">
-                 関市初、
-            </h4>
-            <p class="first__style--p">本格的なゴルフを堪能したい貴方へ</p>
-            <p class="first__style--p">無人シミュレーションゴルフ場。</p>
-            <p class="first__style--p">関市初の24時間・年中無休</p>
+            <div class="first__style--h4">
+                <h4><span>本格スタイル。</span></h4>
+                <h4>関市初、</h4>
+            </div>
+            <div class="first__style--p">
+                <p>本格的なゴルフを堪能したい貴方へ</p>
+                <p>無人シミュレーションゴルフ場。</p>
+                <p>関市初の24時間・年中無休</p>
+            </div>
         </div>
         <?php template_part('content-bottom'); ?>
     </div>     
@@ -82,14 +84,18 @@ template_part('header',[
         <div class="second__sty">
             <div class="second__left">
                 <!--  the code content -->
-                <h6 class="second__left--p">期間内であっても終了とさせていただきます。</h6>
-                <h6 class="second__left--p">※会員数が1 2 0名に達した場合は、</h6>
-                <h4 class="second__left--h4">
-                    <p class="left__sty">120</p>
-                    <span>名。</span>
-                </h4>
-                <h4 class="second__left--h4">選ばれし</h4>
-                <h4 class="second__left--h4">会員は</h4>
+                <div class="second__left--p">
+                    <p>期間内であっても終了とさせていただきます。</p>
+                    <p>※会員数が1 2 0名に達した場合は、</p>
+                </div>
+                <div class="second__left--h4">
+                    <h4>
+                        <p class="left__sty">120</p>
+                        <span>名。</span>
+                    </h4>
+                    <h4>選ばれし</h4>
+                    <h4>会員は</h4>
+                </div>
             </div>
             <div class="second__right">
                 <div class="second__img">
@@ -99,7 +105,7 @@ template_part('header',[
                     <img src="<?php assets('images/face.png')?>" class="img__sty">
                 </div>
                 <div class="second__content">
-                    <h6>最新情報は各SNS等でもご確認いただけます。</h6>
+                    <p>最新情報は各SNS等でもご確認いただけます。</p>
                     <h3>オープン前無料体験会</h3>
                     <h4>2021年12月14日〜2021年12月16日</h4>
                     <p>※無料体験時は公共交通機関か最寄りのパーキングをご利用ください。</p>
@@ -227,6 +233,40 @@ template_part('header',[
                     </tbody>
                 </table>
             </div>
+            <div class="four__tab four__tab--two four__tab--three">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td>平日会員（平日9時～18時）</td>
+                            <td>VIP会員（全日利用可能）</td>
+                        </tr>
+                        <tr>
+                            <td>入会金</td>
+                            <td class="td__sty">
+                                <p class="p--sty">11,000円（税込）
+                                </p>
+                                <span>0円</span>
+                            </td>
+                            <td class="td__sty">
+                                <p class="p--sty">11,000円（税込）
+                                </p>
+                                <span>0円</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>事務手数料</td>
+                            <td>3,300円（税込）</td>
+                            <td>3,300円（税込）</td>
+                        </tr>
+                        <tr>
+                            <td>月会費</td>
+                            <td>6,600円（税込）</td>
+                            <td>8,800円（税込）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <!--  the code content -->
         </div>
         <?php template_part('content-bottom'); ?>
@@ -259,10 +299,8 @@ template_part('header',[
                         </table>
                     </div>
                     <div class="five__desct">
-                            <h4>無料体験会のご予約、</h4>
-                            <h4>空きスケジュールの確認、</h4>
-                            <h4>お問い合わせは</h4>
-                            <h4>下記よりお願いいたします。</h4>
+                            <h4>無料体験会のご予約、空きスケジュールの確認、</h4>
+                            <h4>お問い合わせは下記よりお願いいたします。</h4>
                     </div>   
                 </div>
                 <div class="five__right">
@@ -280,8 +318,7 @@ template_part('header',[
                 <div class="botton__btn botton__btn--right">
                     <p>000-000-0000</p>
                     <p>
-                        <span>0:00〜0：00（平日）
-                        </span>
+                        <span>0:00〜0：00（平日)</span>
                     </p>
                 </div>
             </div>
@@ -298,15 +335,15 @@ template_part('header',[
             <div class="six__form">
                 <form action="#" class="six__form--sty">
                     <div>
-                        <label class="form__label--one" for="fname">お名前  <span>※必須</span></label>
+                        <label class="form__label--one" for="fname">お名前<span>※必須</span></label>
                         <input id="fname" type="text" name="textname1">
-                        <label class="form__label--two" for="fname">お名前  <span>※必須</span></label>
+                        <label class="form__label--two" for="fname">お名前のフリガナ<span>※必須</span></label>
                         <input id="fname" type="text" name="textname2">
                     </div>
                     <div>
-                        <label class="form__label--three" for="fname">お名前  <span>※必須</span></label>
+                        <label class="form__label--three" for="fname">電話番号<span>※必須</span></label>
                         <input id="fname" type="text" name="textname3">
-                        <label class="form__label--four" for="fname">お名前  <span>※必須</span></label>
+                        <label class="form__label--four" for="fname">メールアドレス<span>※必須</span></label>
                         <input id="fname" type="text" name="textname4">
                     </div>
                     <label class="form__label--five" for="textarea">お問い合わせ内容</label>
