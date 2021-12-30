@@ -4,13 +4,13 @@
 <script src="<?php assets('js/main.js')?>"></script>
 <script src="<?php assets('js/fullpage.min.js')?>"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js" integrity="sha512-+m1+m9XBnZXowk9jSNIlZYgtOPTIu6aUHha/4/3dk84PQcpWgrNd4/zKmOYno0BQK9nuJ6WgYBnuPqCrmvMNtg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
+<!-- <script>
 	new fullpage('#fullpage', {
 		autoScrolling:true,
 		// scrollHorizontally: true,
 		responsiveWidth: 800
 	})
 	// fullpage_api.setAllowScrolling(false);
-</script>
+</script> -->
 </body>
 </html>

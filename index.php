@@ -62,6 +62,7 @@ template_part('header',[
 <!-- the section first -->
 <div id="fullpage">
 <section class="section content--first">
+    <!-- //asset nav templates-part -->
     <div class="content__container">  
         <div class="first__style">
             <div class="first__style--h4">
